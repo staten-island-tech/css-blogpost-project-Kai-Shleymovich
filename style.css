@@ -1,14 +1,41 @@
-
-body{background-color: rgb(203, 103, 243);}  
-h1{text-align: center;
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
-h2{font-family: 'Courier New', Courier, monospace;}
-.image1{position: relative; left: 1080;}
-p1{position: relative; bottom: -20px; font-size: larger; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
-a{position: relative; left: 1175px; font-size: larger;}
-.image2{position: relative;left: 1135px;}
-p2{position: relative; right: -125px; bottom: -20px; font-size: larger; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+body {
+  background-color: rgb(103, 129, 243);
+}
+h1 {
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+h2 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.image1 {
+  margin: auto 0px;
+}
+p1 {
+ text-align: center;
+  font-size: larger;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+a {
+  position: relative;
+  left: 1175px;
+  font-size: larger;
+}
+.image2 {
+  position: relative;
+  left: 1135px;
+}
+p2 {
+  text-align: center;
+  font-size: larger;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
-
-
+.poop{
+    width: 70vw;
+    height: 80vh; 
+}
+#jhon{
+    display:flex:
+    justify-content:center:
+}
