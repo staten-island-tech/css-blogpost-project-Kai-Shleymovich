@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@600&display=swap');
 .page {
-  background-color: #76c5bb;
+  background-color: #341B74;
   font-family: "dosis";
 }
 
@@ -20,18 +20,18 @@
 .title {
   font-size: 50px;
   padding: 10px;
-  border: 1px solid #E27D60;
+  border: 1px solid #BD4C9F;
   border-radius: 100px;
-  background-color: #E27D60;
+  background-color: #BD4C9F;
   color: white;
 }
 
 .subtitle {
   font-size: 30px;
   padding: 10px;
-  border: 1px solid #E27D60;
+  border: 1px solid #BD4C9F;
   border-radius: 10px;
-  background-color: #E27D60;
+  background-color: #BD4C9F;
   color: white;
 }
 
@@ -42,8 +42,8 @@
 
 .blog {
   display: flex;
-  border: 2px solid #E27D60;
-  background-color: #E27D60;
+  border: 2px solid #BD4C9F;
+  background-color: #BD4C9F;
   border-radius: 30px;
   margin: 0 5%;
   padding: 5%;
