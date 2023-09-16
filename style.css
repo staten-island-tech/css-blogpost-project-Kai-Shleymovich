@@ -1,41 +1,79 @@
-body {
-  background-color: rgb(103, 129, 243);
-}
-h1 {
-  text-align: center;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-}
-h2 {
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-.image1 {
-  margin: auto 0px;
-}
-p1 {
- text-align: center;
-  font-size: larger;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-}
-a {
-  position: relative;
-  left: 1175px;
-  font-size: larger;
-}
-.image2 {
-  position: relative;
-  left: 1135px;
-}
-p2 {
-  text-align: center;
-  font-size: larger;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@600&display=swap');
+.page {
+  background-color: #76c5bb;
+  font-family: "dosis";
 }
 
-.poop{
-    width: 70vw;
-    height: 80vh; 
+#logo {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
 }
-#jhon{
-    display:flex:
-    justify-content:center:
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  font-size: 50px;
+  padding: 10px;
+  border: 1px solid #E27D60;
+  border-radius: 100px;
+  background-color: #E27D60;
+  color: white;
+}
+
+.subtitle {
+  font-size: 30px;
+  padding: 10px;
+  border: 1px solid #E27D60;
+  border-radius: 10px;
+  background-color: #E27D60;
+  color: white;
+}
+
+.main-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr
+}
+
+.blog {
+  display: flex;
+  border: 2px solid #E27D60;
+  background-color: #E27D60;
+  border-radius: 30px;
+  margin: 0 5%;
+  padding: 5%;
+  color: white;
+}
+
+.image {
+  width: 50%;
+  height: 100%;
+  margin: 0 10px;
+  border-radius: 50px;
+  box-shadow: 10px black;
+}
+
+.link {
+  display: block;
+  margin-top: 5%;
+  padding: 3%;
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+  text-decoration: none;
+  text-align: center;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.blog:hover {
+ filter:  drop-shadow(12px 12px 6px black)
 }
